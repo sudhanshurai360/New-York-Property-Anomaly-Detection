@@ -1,5 +1,5 @@
 # New-York-Property-Anomaly-Detection
-These notebooks has good example algorithms to do a forensic-type analysis, looking for anomalies in a dataset. First doing some data cleaning (exclusions, imputation), then building variables that are designed to look for the kinds of anomalies we are interested in, in this case, unusual property valuations.
+These notebooks have a good example of algorithms to do a forensic-type analysis, looking for anomalies in a dataset. First doing some data cleaning (exclusions, imputation), then building variables that are designed to look for the kinds of anomalies we are interested in, in this case, unusual property valuations.
 
 After we build the variables we know we have lots of correlations and too high dimensionality so we need to remove correlations and reduce dimensionality. Since we don't have a dependent variable the easiest useful thing to do is PCA. We z scale, do PCA, keep the top PCs, then z scale again in order to make each retained PC equally important (optional step).
 
